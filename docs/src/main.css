@@ -28,6 +28,18 @@ code {
   background: #fff;
 }
 
+.Browser-panel .Code {
+  background-color: #FFF;
+}
+
+.Browser-panel .Code pre {
+  background-color: #FFF;
+}
+
+.Browser-tabs {
+  margin-bottom: 0;
+}
+
 .Tree-title,
 .Tree-collectionLabel {
   color: #333;
@@ -81,11 +93,11 @@ ol,ul {
 }
 
 [dir="ltr"] .Tree-title {
-  padding-left: 0;
+  padding-left: .75rem;
 }
 
 .Frame-panel--sidebar {
-  padding: 1.25rem 1rem;
+  padding: 0;
 }
 
 [dir="ltr"] .Tree-depth-3 .Tree-collectionLabel {
@@ -112,7 +124,7 @@ ol,ul {
 }
 
 .Tree-depth-1 {
-  padding-left: -12px;
+  padding-left: 0.4rem;
 }
 
 .Pen-title {
@@ -121,7 +133,7 @@ ol,ul {
 }
 
 .Pen-header {
-  padding: 2.5rem 0.75rem
+  padding:  2.5rem 1rem 2rem;
 }
 
 [dir="ltr"] .Pen-previewLink svg {
