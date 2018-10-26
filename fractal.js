@@ -9,7 +9,6 @@ const customTheme = mandelbrot({
   styles: [
     'default',
     '/css/identity-style.css',
-    '/css/identity-style-min.css',
     '/css/main.css'
   ]
 });

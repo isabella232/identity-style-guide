@@ -93,7 +93,8 @@ ol,ul {
 }
 
 [dir="ltr"] .Tree-title {
-  padding-left: .75rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 .Frame-panel--sidebar {
@@ -130,10 +131,11 @@ ol,ul {
 .Pen-title {
   font-size: 1.75rem;
   font-weight: 200;
+  margin: 0;
 }
 
 .Pen-header {
-  padding:  2.5rem 1rem 2rem;
+  padding:  2.25rem 1rem 2rem;
 }
 
 [dir="ltr"] .Pen-previewLink svg {
