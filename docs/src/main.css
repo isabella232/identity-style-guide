@@ -187,6 +187,7 @@ body {
 
 .swatch {
   float: left;
+  display: inline-block;
   width: 160px;
   height: 160px;
   margin: 8px 8px 32px;

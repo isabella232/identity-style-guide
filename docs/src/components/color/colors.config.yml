@@ -1,5 +1,6 @@
-title: 'primary color palette'
+title: 'Color palette'
 status: draft
+layout: preview-bg-dark
 context:
   colors:
     - color:

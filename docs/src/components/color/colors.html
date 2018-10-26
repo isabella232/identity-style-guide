@@ -1,0 +1,24 @@
+<div class="standard-grid">
+  <div class="grid">
+    <div class="col gridwidth-12">
+      <h2>Primary</h2>
+      {% for color in colors %}
+        <div class="swatch h20 mb8">
+          <div class="example swatch-color bg-{{ color.colorName }}" style="background-color: {{ color.colorCode }};"></div>
+          <div class="sans-serif h5">${{ color.colorName }}</div>
+          <div class="monospace">{{ color.colorCode }}</div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="col gridwidth-12">
+      <h2>Secondary</h2>
+      {% for color in colors %}
+        <div class="swatch h20 mb8">
+          <div class="example swatch-color bg-{{ color.colorName }}" style="background-color: {{ color.colorCode }};"></div>
+          <div class="sans-serif h5">${{ color.colorName }}</div>
+          <div class="monospace">{{ color.colorCode }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
